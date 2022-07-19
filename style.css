@@ -13,8 +13,10 @@
     background-color: orange;
 }
 
-h1 {
-    width: 50%;
+.textblog {
+    text-align: center;
+    height: 20%;
+    width: 80%;
 }
 
 .card {
@@ -48,9 +50,16 @@ h1 {
 }
 
 .actions {
-    background: none;
+    background: rgb(205, 205, 205);
     border: none;
+    border-radius: 5%;
     color: orange;
     width: 100%;
     height: 60px;
+}
+
+.barra {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhgCVG5uo-EZI6QXOR8CwG_y39SMvjhnrVUw&usqp=CAU") center/cover;
+    width: 10%;
+    height: 27px;
 }
